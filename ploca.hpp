@@ -124,8 +124,8 @@ public:
                                "moguca_polja[8]". O svemu tome vraća odgovarajuću informaciju */
 
     /* Vraća vrijednost upisanu u niz na unesenom indeksu */
-    char poz(const int&, const int&);
-    bool pripada_mogucim_poljima(const int&, const int&); /* Provjera pripadnosti unesenog
+    char poz(const int&, const int&) const;
+    bool pripada_mogucim_poljima(const int&, const int&) const; /* Provjera pripadnosti unesenog
                                                              polja mogućim poljima */
     char izvrsi_transformaciju(const char&); /* Funkcija za slanje podatka o figuri
                                                 koju treba promjeniti */

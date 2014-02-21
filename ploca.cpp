@@ -1,5 +1,5 @@
 
-bool ploca::pripada_mogucim_poljima(const int& red, const int& kolona)
+bool ploca::pripada_mogucim_poljima(const int& red, const int& kolona) const
 {
     return (bool)(_moguca_polja[red] & (1<<kolona));
 }
@@ -1061,7 +1061,7 @@ void ploca::upisi_putanju_saha(const int& smjer_saha, const bool& boja)
             return;
 }
 
-char ploca::poz(const int& red, const int& kolona)
+char ploca::poz(const int& red, const int& kolona) const
 {
     return _polja[red][kolona];
 }
