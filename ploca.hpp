@@ -5,6 +5,10 @@
 #include<string>
 #include<ctime>
 
+enum konstante{BIJELI=0, CRNI, KRALJ=1, KRALJICA,
+     TOP, LOVAC, SKAKAC, PIJUN};
+
+/*  
 const char PIJUN    = 6;
 const char TOP      = 3;
 const char SKAKAC   = 5;
@@ -13,6 +17,8 @@ const char KRALJICA = 2;
 const char KRALJ    = 1;
 const bool BIJELI = 0;
 const bool CRNI = 1;
+*/
+
 const std::string notacija("KDTLS ");
 
 class ploca
